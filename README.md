@@ -17,15 +17,15 @@ Streamlit
 JSON for intents data
 
 # Installation
-1. Clone the Repository
+# 1. Clone the Repository
 git clone <repository-url>
 cd <repository-directory>
-2. Create a Virtual Environment (Optional but Recommended)
+# 2. Create a Virtual Environment (Optional but Recommended)
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-3. Install Required Packages
+# 3. Install Required Packages
 pip install -r requirements.txt
-4. Download NLTK Data
+# 4. Download NLTK Data
 import nltk
 nltk.download('punkt')
 
@@ -33,6 +33,7 @@ nltk.download('punkt')
 To run the chatbot application, execute the following command:
 
 streamlit run app.py
+
 Once the application is running, you can interact with the chatbot through the web interface. Type your message in the input box and press Enter to see the chatbot's response.
 
 # Intents Data
